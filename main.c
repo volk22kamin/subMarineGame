@@ -12,7 +12,7 @@ void boardPrint(int board[][10]);
 void winPrint(int board[][10]);
 
 int main() {
-	// not really needed
+	
 	int data[] = { 1 ,2,2 ,2 , 4, 1 ,4, 2, 4, 3 , 6,6,7,6,8,6,2, 4,4 ,4 }; 
 	int dataSize = sizeof(data) / sizeof(int);
 	FILE* subData = fopen("subData.txt", "w");
