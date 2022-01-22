@@ -57,6 +57,7 @@ int main() {
 			numOfShipPArts--;
 			if (numOfShipPArts < 1)
 			{
+				winPrint(board);
 				printf("you won!!!\n kulululum");
 				return 0;
 			}
@@ -83,7 +84,7 @@ int main() {
 		}
 		turns++;
 	}
-	winPrint(board);
+	
 	fclose(subData);
 
 
